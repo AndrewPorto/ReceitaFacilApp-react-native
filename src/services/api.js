@@ -2,6 +2,7 @@ import axios from "axios";
 
 /*
 json-server --watch -d 180 --host 192.168.8.198 db.json RODAR API
+npx json-server --watch -d 180 --host 192.168.8.198 db.json
 */
 
 const api = axios.create({

@@ -1,4 +1,4 @@
-import { View, Text, StyleSheet } from 'react-native'
+import 'react-native-gesture-handler';
 
 import { NavigationContainer } from '@react-navigation/native'
 import { Routes } from './src/routes'
@@ -11,10 +11,5 @@ export default function App() {
   )
 }
 
-const styles = StyleSheet.create({
-  container:{
-    flex: 1,
-    backgroundColor: 'red'
-  }
-})
+
 
